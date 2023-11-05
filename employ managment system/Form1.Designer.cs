@@ -31,10 +31,10 @@
             panel1 = new Panel();
             label1 = new Label();
             panel2 = new Panel();
+            button3 = new Button();
             button2 = new Button();
             button1 = new Button();
             pictureBox1 = new PictureBox();
-            button3 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -70,6 +70,16 @@
             panel2.Size = new Size(212, 393);
             panel2.TabIndex = 1;
             // 
+            // button3
+            // 
+            button3.Location = new Point(38, 276);
+            button3.Name = "button3";
+            button3.Size = new Size(136, 58);
+            button3.TabIndex = 2;
+            button3.Text = "Exit";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // button2
             // 
             button2.Location = new Point(38, 164);
@@ -78,6 +88,7 @@
             button2.TabIndex = 1;
             button2.Text = "Employe Information";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -87,6 +98,7 @@
             button1.TabIndex = 0;
             button1.Text = "Employe";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // pictureBox1
             // 
@@ -97,15 +109,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(38, 276);
-            button3.Name = "button3";
-            button3.Size = new Size(136, 58);
-            button3.TabIndex = 2;
-            button3.Text = "Exit";
-            button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
