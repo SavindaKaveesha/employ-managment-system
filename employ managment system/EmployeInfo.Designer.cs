@@ -41,7 +41,7 @@
             panel1.BackColor = SystemColors.ActiveCaption;
             panel1.Controls.Add(label1);
             panel1.Location = new Point(14, 19);
-            panel1.Margin = new Padding(5, 5, 5, 5);
+            panel1.Margin = new Padding(5);
             panel1.Name = "panel1";
             panel1.Size = new Size(1103, 117);
             panel1.TabIndex = 0;
@@ -60,12 +60,13 @@
             // button1
             // 
             button1.Location = new Point(14, 146);
-            button1.Margin = new Padding(5, 5, 5, 5);
+            button1.Margin = new Padding(5);
             button1.Name = "button1";
             button1.Size = new Size(1103, 79);
             button1.TabIndex = 1;
             button1.Text = "Show Employee";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // dataGridView1
             // 
@@ -86,9 +87,10 @@
             Controls.Add(button1);
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             Name = "EmployeInfo";
             Text = "EmployeInfo";
+            Load += EmployeInfo_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
