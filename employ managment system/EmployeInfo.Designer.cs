@@ -89,6 +89,7 @@
             Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             Margin = new Padding(5);
             Name = "EmployeInfo";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "EmployeInfo";
             Load += EmployeInfo_Load;
             panel1.ResumeLayout(false);
