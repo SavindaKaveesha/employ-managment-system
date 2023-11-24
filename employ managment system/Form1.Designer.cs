@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
             label1 = new Label();
             panel2 = new Panel();
@@ -102,11 +103,11 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.caucasian_female_singer_portrait_isolated_neon;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(230, 113);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(787, 390);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
@@ -119,6 +120,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
