@@ -13,6 +13,7 @@ namespace employ_managment_system
         {
             employe form = new employe();
             form.Show();
+            //testing 2
         }
 
         private void button2_Click(object sender, EventArgs e)
