@@ -10,7 +10,7 @@ namespace employ_managment_system
 
 public void check()
 {
-    
+    khkjhjlhljhhk;klhl
 }
         private void button1_Click(object sender, EventArgs e)
         {
