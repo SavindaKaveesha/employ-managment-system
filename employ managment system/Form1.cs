@@ -11,13 +11,14 @@ namespace employ_managment_system
         {
             employe form = new employe();
             form.Show();
+            //new upadtaeaddanskdha
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             EmployeInfo info = new EmployeInfo();
             info.Show();
-        }
+        }//jlkasjdlkajslkdjsaljdlasjdlasjlkdkjasld
 
         private void button3_Click(object sender, EventArgs e)
         {
