@@ -10,8 +10,9 @@ namespace employ_managment_system
 
 public void check()
 {
-    khkjhjlhljhhk;klhl
-}
+    dadasdasd;
+}//sadadasdasdasd
+sadasdasdasda
         private void button1_Click(object sender, EventArgs e)
         {
             employe form = new employe();
