@@ -10,7 +10,7 @@ namespace employ_managment_system
 
 public void check()
 {
-    dadasdasd;
+    //dadasdasd;
 }//sadadasdasdasd
 sadasdasdasda
         private void button1_Click(object sender, EventArgs e)
