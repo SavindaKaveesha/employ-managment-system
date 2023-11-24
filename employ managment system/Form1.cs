@@ -5,8 +5,13 @@ namespace employ_managment_system
         public Form1()
         {
             InitializeComponent();
+            
         }
 
+public void check()
+{
+    
+}
         private void button1_Click(object sender, EventArgs e)
         {
             employe form = new employe();
